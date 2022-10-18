@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" type="text/css" href="inicioCSS.css">
+    <script src="jogoDaVelhaJS.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Libre+Franklin:wght@400;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="topJV" class="topJV">
+        <img class="imgJV" src="./images/iconJogodaVelha.png" alt="Imagem Jogo da Velha">
+        <a class="title">tic-tac-toe</a>
+    </div>
+
+    <div class="names">
+        <input id="name1" class="namesJ12" placeholder="Nome do Jogador 1" type="text">    
+        <input id="name2" class="namesJ12" placeholder="Nome do Jogador 2" type="text"> 
+
+        <button id="buttonOK" class ="buttonOK" onclick="run()">OK</button>
+
+    </div>
+
+    <!--***** Game ******-->
+
+    <div id="gamers" class="gamers">
+        <div class="gamer">
+            <label>Jogador: </label>
+            <label id="gamer-selected"></label> <br>
+        </div>
+    
+        <div class="winner">
+            <br><label id="winner-selected"></label>
+        </div>
+    </div>
+
+    <div id="game" class="game">
+		<div>
+            <div id="1" class="square" onclick="chooseSquare(this.id)">-</div>
+            <div id="2" class="square" onclick="chooseSquare(this.id)">-</div>
+            <div id="3" class="square" onclick="chooseSquare(this.id)">-</div>
+        </div>
+        <div>   
+            <div id="4" class="square" onclick="chooseSquare(this.id)">-</div>
+            <div id="5" class="square" onclick="chooseSquare(this.id)">-</div>
+            <div id="6" class="square" onclick="chooseSquare(this.id)">-</div>
+        </div>		
+        <div >   
+            <div id="7" class="square" onclick="chooseSquare(this.id)">-</div>
+            <div id="8" class="square" onclick="chooseSquare(this.id)">-</div>
+            <div id="9" class="square" onclick="chooseSquare(this.id)">-</div>
+        </div>     
+	</div>
+    
+    <div  id="button_end" class="button_end">
+        <button onclick="restart()" class="newGame" id="idnewGame">Novo Jogo</button>
+        <a href="./inicio.html"><button class="newGamers" id="idnewGamer">Mudar nomes dos jogadores</button></a>   
+    </div>
+
+<!--Créditos-->
+    <!-- Freepik: https://www.flaticon.com/br/icones-gratis/jogo-da-velha"
+         Coolors: https://coolors.co/11270b-71b340-669d31-598b2c-3c5a14
+         Fonts Google: https://fonts.google.com/?preview.text=tic-tac-toe&preview.text_type=custom
+         W3Schools: https://www.w3schools.com/default.asp
+    -->
+
+</body>
+</html>

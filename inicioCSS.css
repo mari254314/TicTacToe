@@ -1,0 +1,234 @@
+body{
+    background-color: #71b340;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/*Colors{
+        background-color: #11270b;
+        background-color: #71b340;
+        background-color: #669d31;
+        background-color: #598b2c;
+        background-color: #3c5a14;
+}*/
+
+ /*Fonts: 
+        font-family: 'Caveat', cursive;
+        font-family: 'Libre Franklin', sans-serif;
+*/
+
+.topJV{
+    width: 17rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.875rem;
+    padding: 2.5rem;
+    align-self: center;    
+    margin-top: 3rem;
+}
+
+.title{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    float: left;
+    margin-left: 1rem;
+}
+
+.imgJV{
+    height: 5rem;
+    width: 5rem;
+}
+
+.names{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.875rem;
+    padding: 2.5rem;
+    align-self: center;
+    text-align: center;
+}
+
+.namesJ12 {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #11270b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.buttonOK{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: #3c5a14;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2.125rem;
+    margin-top: 1.875rem;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.buttonOK:hover{
+    transform: scale(1.05);
+  }
+
+a{
+    text-decoration: none;
+    width: 100%;
+}
+
+
+/*Jogo*/
+
+
+
+/*Colors{
+        background-color: #11270b;
+        background-color: #71b340;
+        background-color: #669d31;
+        background-color: #598b2c;
+        background-color: #3c5a14;
+        background-color: #91B941;
+}*/
+
+ /*Fonts: 
+        font-family: 'Caveat', cursive;
+        font-family: 'Libre Franklin', sans-serif;
+*/
+
+.gamers{
+    width: 17rem;
+    justify-items: center;    
+    align-self: center;    
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    display: none;
+    border: black;
+}   
+
+.game{
+    width: 20rem;
+    height: 17rem;
+    justify-items: center;
+    text-align: center;
+    font-size: 1rem;
+    align-self: center;    
+    margin-top: 0.5rem;
+    font-weight: 700;
+    color: white;
+    padding: 2rem;
+    flex-direction: column;
+    display: none;
+}
+
+.button_end{
+    width: 20rem;
+    height: 7rem;
+    justify-items: center;
+    text-align: center;
+    font-size: 1rem;
+    align-self: center;    
+    font-weight: 700;
+    color: white;
+    padding-block-end: 2rem;
+    flex-direction: column;
+    display: none;
+}
+
+.square {
+	font-size: 4rem;
+    margin: 0.1rem;
+    cursor:pointer;
+    float: left;
+    height: 5rem;
+    width: 30%;
+    color:#71b340;
+    border:#3c5a14 solid;
+}
+
+#gamer {
+	display: inline;
+}
+
+.newGame, .newGamers {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 1rem;
+    background-color: #3c5a14;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 2.125rem;
+    margin-top: 1.2rem;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+    font-weight: 400;
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/*FOOTER*/
+footer {
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fffefe;
+    background-color: #11270b;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: auto;
+  }
+
+
